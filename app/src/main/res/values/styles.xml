@@ -1,0 +1,225 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!--Dark Theme-->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+
+        <item name="colorPrimary">@color/darkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@color/darkColorAccent</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+
+    </style>
+
+    <style name="AppTheme.Dark.NoActionBar">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.Dark.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Dark.PopupOverlay" parent="ThemeOverlay.AppCompat" />
+
+    <!--Activity Settings ActionBar  @android:style/Theme.Material.Light.DarkActionBar-->
+    <style name="SettingsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!--<item name="android:windowNoTitle">false</item>
+        <item name="windowActionBar">true</item>
+        <item name="android:windowActionBarOverlay">@color/colorPrimary</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!--Activity Transition Animation-->
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+
+    <!--Toolbar BackArrow-->
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">@android:color/black</item>
+
+    </style>
+
+    <style name="ToolbarWhiteBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">@android:color/white</item>
+
+    </style>
+
+    <!--FullScreenTheme-->
+    <style name="FullScreenTheme" parent="AppTheme">
+
+        <item name="android:actionBarStyle">@style/FullScreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="FullScreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+
+        <item name="android:background">@color/overlayBackground</item>
+
+    </style>
+
+    <!--For color palette-->
+    <style name="AppTheme_red" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/red_colorPrimaryDark</item>
+        <item name="colorAccent">@color/red_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_pink" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/pink_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/pink_colorPrimaryDark</item>
+        <item name="colorAccent">@color/pink_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_darpink" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkpink_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkpink_colorPrimary</item>
+        <item name="colorAccent">@color/darkpink_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_violet" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/violet_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/violet_colorPrimaryDark</item>
+        <item name="colorAccent">@color/violet_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_blue" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/blue_colorPrimaryDark</item>
+        <item name="colorAccent">@color/blue_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_skyblue" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/skyblue_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/skyblue_colorPrimaryDark</item>
+        <item name="colorAccent">@color/skyblue_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_green" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/green_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/green_colorPrimaryDark</item>
+        <item name="colorAccent">@color/green_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_grey" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/grey_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/grey_colorPrimaryDark</item>
+        <item name="colorAccent">@color/grey_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_brown" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brown_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/brown_colorPrimaryDark</item>
+        <item name="colorAccent">@color/brown_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_orange" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/orange_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/orange_colorPrimaryDark</item>
+        <item name="colorAccent">@color/orange_colorAccent</item>
+    </style>
+    <style name="AppTheme_bluee" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bluee_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/bluee_colorPrimaryDark</item>
+        <item name="colorAccent">@color/bluee_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_cyan" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cyan_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/cyan_colorPrimaryDark</item>
+        <item name="colorAccent">@color/cyan_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_teal" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/teal_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/teal_colorPrimaryDark</item>
+        <item name="colorAccent">@color/teal_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_lgreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lgreen_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/lgreen_colorPrimaryDark</item>
+        <item name="colorAccent">@color/lgreen_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_lime" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lime_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/lime_colorPrimaryDark</item>
+        <item name="colorAccent">@color/lime_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_yellow" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellow_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/yellow_colorPrimaryDark</item>
+        <item name="colorAccent">@color/yellow_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_amber" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/amber_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/amber_colorPrimaryDark</item>
+        <item name="colorAccent">@color/amber_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_dorange" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/dorange_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/dorange_colorPrimaryDark</item>
+        <item name="colorAccent">@color/dorange_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_gray" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/gray_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gray_colorPrimaryDark</item>
+        <item name="colorAccent">@color/gray_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_black" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/black_colorPrimaryDark</item>
+        <item name="colorAccent">@color/black_colorAccent</item>
+    </style>
+
+</resources>

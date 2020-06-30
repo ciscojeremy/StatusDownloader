@@ -1,0 +1,24 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/businessStatusSwipeRefresh"
+    android:animateLayoutChanges="true"
+    tools:context="com.appdev.statusdownloader.Fragments.BusinessStatusImageFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_business_status_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/business_status_image_row_item"/>
+
+    <TextView
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="The list is empty"/>
+
+</android.support.v4.widget.SwipeRefreshLayout>

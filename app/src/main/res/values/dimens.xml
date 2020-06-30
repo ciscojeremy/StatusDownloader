@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="animation_duration_medium">3000</integer>
+    <integer name="dimen_space_left">4</integer>
+    <integer name="dimen_space_right">4</integer>
+
+</resources>

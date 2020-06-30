@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Theme &amp; UI">
+
+        <SwitchPreference
+            android:key="switch_dark_theme"
+            android:title="@string/dark_theme"
+            android:summary="@string/enable_dark_theme"
+            android:defaultValue="false">
+
+            <intent android:targetPackage="com.appdev.statusdownloader"
+                    android:targetClass="com.appdev.statusdownloader.InSplashActivity"/>
+
+        </SwitchPreference>
+
+        <!--<Preference
+            android:key="@string/key_theme_color_change"
+            android:summary="@string/change_the_ui_color_of_the_app"
+            android:title="@string/theme_color_change"/>-->
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Advanced Settings">
+
+        <SwitchPreference
+            android:key="application_updates"
+            android:title="@string/app_update"
+            android:summary="@string/this_option"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="switch_rename_file"
+            android:title="@string/all_use_default_file_name"
+            android:summary="@string/avoid_rename_dialog_when_downloading_status_file_by_using_the_default_file_name"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="switch_video_control"
+            android:title="@string/enable_video_controls"
+            android:summary="@string/display_control_buttons_for_video_status"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="switch_notification"
+            android:title="@string/notification"
+            android:summary="@string/get_notified_when_new_status_es_is_are_available"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="switch_delete_option"
+            android:title="@string/enable_delete_option"
+            android:summary="@string/delete_button_will_show_up_in_viewer_screen"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Misc">
+
+        <Preference
+            android:key="@string/clear_cache"
+            android:summary="@string/clear_temporary_app_junk_files_to_speed_up_app"
+            android:title="@string/clear_app_cache"/>
+
+        <Preference
+            android:key="@string/faq_question"
+            android:summary="@string/frequently_asked"
+            android:title="@string/faq"/>
+
+        <Preference
+            android:key="@string/send_feedback"
+            android:summary="@string/let_us_know_if_you_have_any_suggestion_or_found_bug"
+            android:title="@string/feedback"/>
+
+        <Preference
+            android:key="@string/app_about"
+            android:summary="@string/version_1_0"
+            android:title="@string/about"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

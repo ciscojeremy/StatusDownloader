@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Status Downloader</string>
+    <string name="logo">© Status Downloader</string>
+    <string name="status_images">Status Images</string>
+    <string name="status_videos">Status Videos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_video">Play Video</string>
+    <string name="download_video">Download Video</string>
+    <string name="download_image">Download Image</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="rate_this_app">Rate this App</string>
+    <string name="share">Share</string>
+    <string name="help">Help</string>
+    <string name="video_preview_thumbnail">Video Preview Thumbnail</string>
+    <string name="rename_file">Rename File</string>
+    <string name="all_use_default_file_name">Always Use Default File Name</string>
+    <string name="avoid_rename_dialog_when_downloading_status_file_by_using_the_default_file_name">Avoid rename dialog when downloading status file by using the default file name</string>
+    <string name="enable_video_controls">Enable Video Controls</string>
+    <string name="display_control_buttons_for_video_status">Display control buttons for video status</string>
+    <string name="notification">Notification</string>
+    <string name="get_notified_when_new_status_es_is_are_available">Get notified when new Status(es) is/are available</string>
+    <string name="enable_delete_option">Enable Delete Option</string>
+    <string name="delete_button_will_show_up_in_viewer_screen">Delete button will show up in viewer screen</string>
+    <string name="clear_app_cache">Clear App Cache</string>
+    <string name="clear_temporary_app_junk_files_to_speed_up_app">Clear temporary app junk files to speed up App</string>
+    <string name="feedback">Feedback</string>
+    <string name="let_us_know_if_you_have_any_suggestion_or_found_bug">Let us know if you have any suggestion or found bug</string>
+    <string name="about_app">About</string>
+    <string name="version_1_0">Version 1.8.6</string>
+    <string name="save">Save</string>
+    <string name="set_as">Set as Wallpaper</string>
+    <string name="delete">Delete</string>
+    <string name="check_the_desired_status">* Check the Desired Status on WhatsApp</string>
+    <string name="come_back_to_app_click_on_the_image_or_video_to_view">* Come Back to App, Click on the Image or Video to View</string>
+    <string name="click_on_the_download_button_to_save_the_image_or_video_instantly_to_your_gallery">* Click on the Download Button to Save the Image or Video Instantly to your Gallery</string>
+    <string name="use_default_file_name">Save with default file name</string>
+    <string name="app_logo">App Logo</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Admob -->
+    <string name="adMob_app_id">ca-app-pub-5399135142981031~8485330619</string>
+    <string name="ad_unit_id">ca-app-pub-5399135142981031/7259755144</string>
+    <string name="test_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="download">Download</string>
+    <string name="hint_do_not_erase_the_file_extension_name_like_jpg_or_mp4">Hint: Do not erase the file extension name like .jpg or .mp4 when renaming the file for download, if you wish to rename it.</string>
+    <string name="file_name_rename">Files are been saved with the default file name</string>
+    <string name="send_feedback">send_feedback</string>
+    <string name="clear_cache">clear_cache</string>
+    <string name="app_about">app_about</string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="faq">FAQs</string>
+    <string name="question_i_can_t_see_my_saved_statuses_in_gallery">Question:  I Can\'t See My Saved Statuses in Gallery?</string>
+    <string name="answer_don_t_worry_your_statuses_are_saved_but_may_take_some_time_to_show_up_in_gallery_the_android_gallery_is_slow_to_load_the_saved_images_and_videos_you_can_as_well_look_out_for_a_folder_in_your_file_manager_named_wsdownloader_your_files_are_saved_to_this_folder_when_you_download_any_image_or_video">Answer:  Don\'t Worry Your Statuses are Saved but May Take Some Time to Show up in Gallery, The Android Gallery is Slow to Load the Saved Images and Videos. You Can as Well Look out For a Folder in Your File Manager Named \'WSDOWNLOADER\', Your Files are Saved to this Folder When You Download any Image or Video Status.</string>
+    <string name="question_why_can_t_i_see_all_statuses_shown_in_whatsapp">Question:  Why are Some of My Statuses not Shown in App?</string>
+    <string name="answer_this_may_happen_if_you_haven_t_seen_a_status_especially_for_video_statuses_first_see_the_status_then_open_status_downloader_and_swipe_your_screen_to_refresh_all_statuses_should_be_shown">Answer:  This May Happen if You Haven\'t Seen a Status Especially for Video Statuses. First, See the Status then Open Status Downloader and Swipe Your Screen to Refresh. All Statuses should be shown.</string>
+    <string name="question_how_do_i_refresh_the_screen">Question: How Do I Refresh the Screen?</string>
+    <string name="answer_just_pull_the_screen_from_the_top_to_refresh_all_statuses_and_also_to_add_recently_published_statuses_to_the_list">Answer: Just Pull the Screen from the Top to Refresh All Statuses and Also to Add Recently Published Statuses to the List</string>
+    <string name="question_how_do_i_delete_an_old_status_file">Question: How do I Delete an old Status File?</string>
+    <string name="answer_if_the_delete_button_is_not_visible_in_the_viewer_screen_go_to_settings_and_enable_the_delete_option_go_back_to_the_desired_status_you_wish_to_delete_then_click_on_the_delete_button_and_select_yes_to_delete_the_status">Answer: If The Delete Button is not Visible in the Viewer Screen, Go to Settings and Enable the Delete Option. Go back to the Desired Status You Wish to delete, then Click on the Delete Button and Select Yes to Delete the Status.</string>
+    <string name="question_where_are_statuses_saved">Question: Where are Statuses Saved?</string>
+    <string name="answer_your_saved_statuses_can_be_found_in_the_wsdownloader_folder_in_the_internal_storage_of_your_device">Answer: Your Saved Statuses can be found in the \'WSDOWNLOADER\' folder in the Internal Storage of Your Device.</string>
+    <string name="repost">Repost</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="enable_dark_theme">Enable to use dark themed UI</string>
+    <string name="faq_question">faq_questions</string>
+    <string name="frequently_asked">Most frequently asked questions</string>
+    <string name="changing_theme">Changing Theme</string>
+    <string name="application_updates">application_updates</string>
+    <string name="app_update">Application Updates</string>
+    <string name="this_option">This option will allow the application to check for latest app version if enabled</string>
+
+
+    <string name="preference_file_key_first_time">preference_file_first_time</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="appupdateicon">appUpdateIcon</string>
+    <string name="you_re_missing_out">You\'re missing out</string>
+    <string name="update_your_status_downloader_app_for_the_newest_features">An update is available with new features, a faster experience, fixes, and more. It typically takes less than 1 minute.</string>
+    <string name="update">Update</string>
+    <string name="not_now">Not Now</string>
+    <string name="business_status">Business Status</string>
+    <string name="gb_status">GB Status</string>
+    <string name="supports_whatsapp_business">- Supports WhatsApp Business</string>
+    <string name="dark_theme_mode">- Dark Theme Mode</string>
+    <string name="various_theme_colors">- Various Theme Colors</string>
+    <string name="user_gets_to_remove_ads">- User Gets to Remove Ads</string>
+    <string name="theme_color_change">Theme Color Change</string>
+    <string name="change_the_ui_color_of_the_app">Change the UI color of the App</string>
+    <string name="key_theme_color_change">theme_color_change</string>
+    <string name="click_here"><u>Click here</u></string>
+    <string name="want_to_remove_banner_adverts">Want to remove banner adverts?</string>
+
+</resources>

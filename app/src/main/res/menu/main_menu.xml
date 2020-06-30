@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_gb_status"
+        android:title="@string/gb_status"
+        app:showAsAction="never"
+        android:visible="false"/>
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/help"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/share"
+        android:icon="@drawable/ic_share_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_rate"
+        android:title="@string/rate_this_app"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_business_status"
+        android:title="@string/business_status"
+        app:showAsAction="never"/>
+
+</menu>

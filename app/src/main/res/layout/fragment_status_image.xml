@@ -1,0 +1,17 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/imageSwipeRefresh"
+    android:animateLayoutChanges="true"
+    tools:context="com.appdev.statusdownloader.StatusImageFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_image_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/image_status_row_item"/>
+
+</android.support.v4.widget.SwipeRefreshLayout>

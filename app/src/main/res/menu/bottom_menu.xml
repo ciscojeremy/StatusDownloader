@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_images"
+        android:enabled="true"
+        android:title="@string/status_images"
+        android:icon="@drawable/ic_image_black_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_videos"
+        android:enabled="true"
+        android:title="@string/status_videos"
+        android:icon="@drawable/ic_slow_motion_video_black_24dp"
+        app:showAsAction="ifRoom"/>
+
+</menu>

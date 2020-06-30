@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="1dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <VideoView
+        android:id="@+id/businessStatusVideoFile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:scaleY="1"
+        android:scaleX="1"/>
+
+    <ImageView
+        android:id="@+id/businessStatusVideoThumbNail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/video_preview_thumbnail"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/ic_play_circle_outline_white_24dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/play_video"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:padding="8dp"
+        android:background="#4f0e0d0e">
+
+        <TextView
+            android:id="@+id/businessStatusVideoDownloadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="center_vertical"
+            android:padding="6dp"
+            android:text="@string/download"
+            android:textColor="@android:color/white"
+            android:background="@drawable/border_bg"/>
+
+        <ImageView
+            android:id="@+id/btnBusinessStatusDeleteVideo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ic_delete_white_24dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:padding="6dp"
+            android:background="@drawable/border_bg"/>
+
+    </LinearLayout>
+
+</FrameLayout>
